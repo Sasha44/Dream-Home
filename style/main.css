@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* HEADER */
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	overflow: auto;
+	background-color: #1B1B1B;
+}
+
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.header-logo {
+	padding: 13px 0px;
+	padding-right: 610px;
+	
+}
+.header-list li {
+	float: left;
+}
+/*
+.header-list a:hover {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: red;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	
+}
+*/
+.header-list li a{
+	float: left;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	padding-right: 35px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.header-arrow img {
+	float: left;
+	margin-right: 35px;
+	margin-top: 27px;
+	margin-left: -35px;
+}
+.header-btn {
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	padding: 11px 24px;
+	border-radius: 8px;
+	margin-top: 17px;
+}
+
+/*visiting card*/
+.visiting-card {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	overflow: auto;
+	background-image: url(../image/dream_home.jpg);
+	background-position: bottom;
+	background-size: auto;
+}
+
+.visiting-card h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 64px;
+	padding-top: 217px;
+	padding-bottom: 300px;
+	max-width: 850px;
+	color: white;
+}
+.visiting-card span {
+	color: #FF9505;
+}
+
+/*filter button*/
+
+.filter-btn button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+	border-color: dimgray;
+	border-width: 1.5px;
+	padding: 11px 24px;
+	border-radius: 8px;
+	margin-top: 64px;
+	margin-right: 24px;
+	background-color: #1B1B1B;
+}
+.filter {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #1B1B1B;
+	border-width: 1.5px;
+	border-style: none;
+	padding: 11px 24px;
+	border-radius: 8px;
+	margin-top: 64px;
+	margin-right: 0;
+	background-color: white;
+}
+.filter img{
+	padding: auto;
+}
+/*price*/
+.price {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 32px 15px;
+	overflow: auto;
+	background-color: #1B1B1B;
+}
+.home-img {
+	height: auto;
+	background-image: url(../image/House1.jpg);
+	background-repeat: no-repeat;
+}
+.home-img button{
+	height: 450px;
+	width: 60px;
+	margin-right: 450px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.price-home p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: white;
+	padding-top: 25px;
+	padding-left: 16px;
+	float: left;
+}
+.price-home button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 12px 24px;
+	border-radius: 8px;
+	margin-top: 17px;
+	margin-left: 294px;
+}
+.home-characteristics p{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgba(255, 251, 251, 0.65);
+	padding: 12px 60px;
+}
+.home-img-2 {
+	height: auto;
+	background-image: url(../image/House2.jpg);
+	background-repeat: no-repeat;
+}
+.home-img-3 {
+	height: auto;
+	background-image: url(../image/House3.jpg);
+	background-repeat: no-repeat;
+}
+.home-img-4 {
+	height: auto;
+	background-image: url(../image/House4.jpg);
+	background-repeat: no-repeat;
+}
+.home-img-5 {
+	height: auto;
+	background-image: url(../image/House5.jpg);
+	background-repeat: no-repeat;
+}
+.home-img-6 {
+	height: auto;
+	background-image: url(../image/House6.jpg);
+	background-repeat: no-repeat;
+}
+
+.view-more p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color:white;
+	padding-left: 50%;
+}
+.view-more img{
+	padding-left: 50%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.maps h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	color:rgba(255, 149, 5, 1);
+	padding-top: 64px;
+}
+
+.maps p{
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	color:rgba(255, 255, 255, 0.5);
+	padding-top: 10px;
+}
+.maps-img{
+	border-radius: 8px;
+	margin-top: 32px;
+}
+.maps li{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgba(27, 27, 27, 0.55);
+	background-color: rgba(241, 241, 241, 1);
+	padding: 28px 28px;
+	border-color:rgba(230, 226, 226, 1);
+}
